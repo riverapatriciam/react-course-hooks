@@ -1,7 +1,8 @@
 import React from 'react';
 import { createRoot } from 'react-dom/client';
-import { Padre } from './components/07-tarea-memo/Padre';
+import { ToDoApp } from './components/08-useReducer/ToDoApp';
 
+//import { Padre } from './components/07-tarea-memo/Padre';
 //import { CallBackHooks } from './components/06-useMemo/CallBackHooks';
 //import { MemoHooks } from './components/06-useMemo/MemoHooks';
 //import { Memoraize } from './components/06-useMemo/Memoraize';
@@ -16,7 +17,7 @@ import { Padre } from './components/07-tarea-memo/Padre';
 //import { HooksApp } from './HooksApp';
 
 
-createRoot(document.getElementById('root')).render(<Padre />);
+createRoot(document.getElementById('root')).render(<ToDoApp />);
 
 
 
